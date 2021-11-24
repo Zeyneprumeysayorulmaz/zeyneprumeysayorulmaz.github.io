@@ -8,6 +8,6 @@ excerpt: Thanks to amazing people that i met, who help me out from follishness, 
 comments: false
 ---
 
-“Share your knowledge. It is a way to achieve immortality.”
+"Bilgilerini paylaş, ölümsüzlüğe ulaşmanın yolu budur.”
 
 <hr>
