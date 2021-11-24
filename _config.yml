@@ -1,18 +1,18 @@
 # Site settings
-title: Klise Theme # site title
+title: My Blog # site title
 description: >- # site description
   He's writing in Bahasa about web technology and experience as a journal 
   for documentation things that he learned, meet him <a href="https://github.com/piharpi" target="_blank" rel="noopener">@github</a>.
 lang: en-US # default lang
 timezone: Europe/Istanbul # set your timezone
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
-repo: https://github.com/zeyneprumeysayorulmaz/zeyneprumeysayorulmaz.github.io # site repo [optional]
+repo: https://github.com/piharpi/jekyll-klise # site repo [optional]
 mode: dark # default theme "dark" | "light"
 
 # Profile settings
 author:
   name: Zeynep Rumeysa YORULMAZ # author name
-  bio: Keyifli okumalar
+  bio: “Don't tell me the sky's the limit when there are footprints on the moon.” 
   username: zeyneprumeysayorulmaz # general username
   github: zeyneprumeysayorulmaz # github username
   twitter: twitter_username # twitter username
