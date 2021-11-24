@@ -2,7 +2,7 @@
 title: Golden Ticket, Silver Ticket ve Kerberoasting Nedir?
 ---
 
-Golden Ticket, Silver Ticket ve Kerberoasting kavramlarından bahsetmeden önce Kerboros' un nasıl çalıştığına değinmek istiyorum.  **Kerberos**, domain ortamında **bilet (ticket)**  mantığını kullanarak kimlik doğrulama ve yetkilendirmeyi sağlayan protokoldür. UDP 88 portundan hizmet veren Kerberos üzerinden bir çok saldırı gerçekleştirilmektedir. Bu saldırıları anlamak için öncelikle Kerberos' un nasıl çalıştığını anlamak önemlidir.
+Golden Ticket, Silver Ticket ve Kerberoasting kavramlarından bahsetmeden önce Kerboros'un nasıl çalıştığına değinmek istiyorum.  **Kerberos**, domain ortamında **bilet (ticket)**  mantığını kullanarak kimlik doğrulama ve yetkilendirmeyi sağlayan protokoldür. UDP 88 portundan hizmet veren Kerberos üzerinden bir çok saldırı gerçekleştirilmektedir. Bu saldırıları anlamak için öncelikle Kerberos' un nasıl çalıştığını anlamak önemlidir.
 
 ![Kerberos](http://www.koraykey.com/wp-content/uploads/Kerberos_Install.jpg)
 
@@ -43,3 +43,22 @@ Domain parola hashlerini elde etmemiz gerektiğinden bahsetmiştik. Peki bu bilg
 - Mimikatz'in DCSync (Domain Controller' ların kendi aralarındaki yedekleme mekanizması) özelliğini kullanmak: Bu yöntemde Mimikatz gibi başka araçlarda kullanılmaktadır. Saldırgan Backup Domain Controller gibi gibi davranarak birincil domain controller' daki domain verilerini kendi üzerine çekebilir.
 
 **Bu işlemler sıradan kullanıcının gerçekleştirebileceği işlemler değildir. Domain Admin kullanıcılarından birisinin parolasının çalınmş olması gereklidir.**
+
+## Golden Ticket Nedir?
+Bu yöntemde saldırgan sahte bir TGT üretmektedir. Bu işlem için Domain Admin olmuş ve  domain parola hashlerini elde etmiştir. Domain parola hashlerini elde etmesinin nedeni  KRBTGT kullanıcısının parola hashini ele geçirmektir. KRBTGT, domain ortamında TGT' leri imzalamaktan sorumlu olduğundan saldırgan kendisine istediği kadar süreli bir TGT üretebilmektedir.
+
+**Önlem!!** 
+Saldırganın ürettiği TGT' nin geçersiz olması için KRBTGT kullanıcısının parolasının iki kez sıfırlanması gerekir.
+
+## Silver Ticket Nedir?
+
+Bu yöntemde amaç hedef servise yönelik sahte bir Service Ticket üreterek yetkisiz erişim sağlamaktır. Hedef servise ait NTLM hash’i kullanılarak TGS oluşturulmakta ve saldırgan domain üzerindeki yetkilerini yükseltmektedir.
+
+Yine Mimikatz kullanılarak Silver Ticket üretilebilir. 
+
+## Kerberoasting Nedir?
+Bu saldırı yönteminde servis kullanıcılarının parolalarının elde edilmesi sağlanır. Bununla birlikte Silver Ticket'ta olduğu gibi hedef servise yönelik alınan Silver Ticket içindeki kullanıcı bilgilerinin değiştirilmesi ile de gerçekleştirilebilir. Bu yöntemin bir kolaylığı, Silver Ticket üretebilmek için Domain Admin haklarının gerekmemesidir.
+
+Kerberoasting yöntemi için powershell kütüphaneleri, Impacket gibi python kütüphaneleri vb.  bir çok araç mevcuttur.
+
+> Service Ticket içinde KRBTGT tarafından atılan bir PAC (Privileged Access Cert) imzası yer almaktadır. Saldırının tespiti için bu imzalar kontrol edilebilir fakat performans, verim vb. nedenlerle bu kontrol genellikle yapılmamaktadır.
