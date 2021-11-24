@@ -13,11 +13,11 @@ mode: dark # default theme "dark" | "light"
 author:
   name: Jekyll Klisé # author name
   bio: Keyifli okumalar
-  username: username # general username
-  github: github_username # github username
+  username: zeyneprumeysayorulmaz # general username
+  github: zeyneprumeysayorulmaz # github username
   twitter: twitter_username # twitter username
   facebook: facebook_username # facebook username
-  email: your-email@email.com # email adress
+  email: rumeysazeynepp@outlook.com # email adress
   avatar: /assets/img/avatar.jpg # change with your own avatar
 
 # URL settings
