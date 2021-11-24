@@ -1,5 +1,5 @@
 ---
-title: Acknowledgment
+title: "..."
 permalink: "/thanks/"
 layout: page
 excerpt: Thanks to amazing people that i met, who help me out from follishness, connecting
@@ -8,8 +8,6 @@ excerpt: Thanks to amazing people that i met, who help me out from follishness, 
 comments: false
 ---
 
-BİLGİLERİNİ PAYLAŞ, ÖLÜMSÜZLÜĞE ULAŞMANIN YOLU BUDUR..
+“Share your knowledge. It is a way to achieve immortality.”
 
 <hr>
-
-Hopefully the knowledge that I got from them can be useful, and become a charity for them, Aamiin.
