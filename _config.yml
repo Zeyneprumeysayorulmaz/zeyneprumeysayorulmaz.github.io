@@ -3,7 +3,7 @@ title: My Blog # site title
 description: Selamlar. Siber güvenlik, sistem ve network konularında çalışmalarımı toparlamak ve insanlarla paylaşmak adına blog yazıyorum. Keyifli okumalar...
 lang: en-US # default lang
 timezone: Europe/Istanbul # set your timezone
-image: assets/img/avatar.jpg # This image used for Open Graph more info https://ogp.me/
+image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
 repo: https://github.com/piharpi/jekyll-klise # site repo [optional]
 mode: dark # default theme "dark" | "light"
 
