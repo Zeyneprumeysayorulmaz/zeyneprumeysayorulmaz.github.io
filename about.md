@@ -8,7 +8,7 @@ excerpt: Hello peeps, I'm student of computer science from Banyuwangi, living in
 comments: false
 ---
 
-🎒 Zeynep Rumeysa YORULMAZ, tutkulu bir araştırmacı ve açık kaynak meraklısıdır. Siber güvenlik ile ilgilenmekte ve ayrı bir ilgi duymaktadır. Siber güvenlik alanındaki gelişmeleri yakinen takip etmekte ve kendini bu doğrultuda geliştirmektedir. Aynı zamanda Sistem ve Network Yönetimi konularında da kendini geliştirmek üzere çalışmalar yürütmektedir. Yaptığı çalışmaları paylaşmak ve kaynak niteliğinde olmasını temenni ederek bu bloğu oluşturmuştur.
+🎒 Zeynep Rumeysa YORULMAZ, Gazi Üniversitesi'nden mezun bir Bilgisayar Mühendisi'dir. Tutkulu bir araştırmacı ve açık kaynak meraklısıdır. Siber güvenlik ile ilgilenmekte ve ayrı bir ilgi duymaktadır. Siber güvenlik alanındaki gelişmeleri yakinen takip etmekte ve kendini bu doğrultuda geliştirmektedir. Aynı zamanda Sistem ve Network Yönetimi konularında da kendini geliştirmek üzere çalışmalar yürütmektedir. Yaptığı çalışmaları paylaşmak ve kaynak niteliğinde olmasını temenni ederek bu bloğu oluşturmuştur.
 
 Çalışmalar hakkındaki soru ve önerileriniz için mail atmanız veya linkedin üzerinden iletişime geçmeniz yeterlidir. Geri bildirimlere ve çalışmayı geliştirici nitelikte yapılan eleştirilere her daim açığım :)
 
