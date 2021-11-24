@@ -14,6 +14,6 @@ comments: false
 
 **iletişime geçmek isterseniz ✨**
 
-- {{ site.author.email }}
-- github.com/{{ site.author.github }}
+- <rumeysazeynepp@outlook.com>
+- [Github](https://www.github.com/zeyneprumeysayorulmaz)
 - [Linkedin](https://www.linkedin.com/in/zeynep-rumeysa-yorulmaz)
