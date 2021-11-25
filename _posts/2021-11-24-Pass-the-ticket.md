@@ -15,8 +15,8 @@ Golden Ticket, Silver Ticket ve Kerberoasting kavramlarından bahsetmeden önce 
 **Etki Alanı Kontrolcüsü (Domain Contoller)**
 
 
-* İstemci kimliğini doğrulatmak istemekte, sunucu istemcinin talep ettiği servisi sağlamakta, DC ise hem istemci hemde sunucu için güvenilir iletişimi sağlamaktadır.
-* Kullanıcının logon bilgilerini (kullanıcı adı, parola) girmesiyle başlayan bir senaryo üzerinden anlatacak olursak client makine girilen bu bilgileri şifrelemekte ve DC' ye iletmektedir (aslında DC' ye şifrelenmiş bir şekilde iletilen yalnızca kullanıcı adı bilgisidir). 
+* İstemci kimliğini doğrulatmak istemekte, sunucu istemcinin talep ettiği servisi sağlamakta, DC ise kimlik doğrulamayı sağlamaktadır.
+* Kullanıcının logon bilgilerini (kullanıcı adı, parola) girmesiyle başlayan bir senaryo üzerinden anlatacak olursak client makine girilen bu bilgileri şifrelemekte ve DC' ye iletmektedir. 
 * Active Directory Domain Controller' ın bir bileşeni olan Anahtar Dağıtım Merkezi (Key Distribution Center -kısaca KDC diyeceğiz), client tarafından gönderilen şifrelenmiş bilgi ile kendi veritabanında bulunan bilgiyi karşılaştırır. Bilgileri doğrulayan KDC, identification işlemini tamamlamış olur. 
 * Bir kullanıcı logon olacak ise mutlaka grup üyelikleri DC tarafından sorgulanır. Kullanıcının üyesi olduğu tüm group blgileri  global katalog üzerinden sorgulanır ve listelenir.
 
