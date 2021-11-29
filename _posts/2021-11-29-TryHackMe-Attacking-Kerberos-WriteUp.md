@@ -4,7 +4,7 @@ title: TryHackMe Attacking Kerberos - WriteUp
 
 ![]({{ 'assets/img/1.3.jpg' | relative_url }})
 
-Bu yazımda TryHackMe platformunda bulunan Attacking Kerberos adlı odanın çözümünden bahsedeceğim. Kerberos' a saldırmanın tüm temellerini içerien bu odada;
+Bu yazımda TryHackMe platformunda bulunan Attacking Kerberos adlı odanın çözümünden bahsedeceğim. Kerberos' a saldırmanın tüm temellerini içeren bu odada;
 
 * Kerbrute ve Rubeus gibi araçları kullanarak enumeration
 * Kerberoasting
