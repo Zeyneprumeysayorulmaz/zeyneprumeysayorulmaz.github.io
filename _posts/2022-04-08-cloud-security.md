@@ -69,3 +69,6 @@ Tüm bunların ışığında çıkarılabilecek sonuçlardan bir tanesi; var ola
 (Who Am I, 2014)
 
 ![]({{ 'assets/img/whoami.png' | relative_url }})
+
+Reference:
+[OWASP Cloud Top 10](https://owasp.org/www-pdf-archive/OWASP_Cloud_Top_10.pdf)
