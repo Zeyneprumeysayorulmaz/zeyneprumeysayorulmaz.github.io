@@ -19,7 +19,7 @@ author:
   avatar: /assets/img/darth.png # change with your own avatar
 
 # URL settings
-url: "https://klise.now.sh" #
+#url: "https://klise.now.sh" #
 baseurl:
 permalink: /:title/
 google_analytics: # leave it blank if not wish
