@@ -8,12 +8,14 @@ excerpt: Hello peeps, I'm student of computer science from Banyuwangi, living in
 comments: false
 ---
 
-🎒 Zeynep Rumeysa YORULMAZ, Gazi Üniversitesi mezunu bir Bilgisayar Mühendisi'dir. Tutkulu bir araştırmacı ve açık kaynak meraklısıdır. Siber güvenlik ile ilgilenmekte ve ayrı bir ilgi duymaktadır. Siber güvenlik alanındaki gelişmeleri yakinen takip etmekte ve kendini bu doğrultuda geliştirmektedir. Aynı zamanda Sistem ve Network Yönetimi konularında da kendini geliştirmek üzere çalışmalar yürütmektedir. Yaptığı çalışmaları paylaşmak ve kaynak niteliğinde olmasını temenni ederek bu bloğu oluşturmuştur.
+🎓 I graduated from Gazi University Computer Engineering program. I am a passionate researcher and open source enthusiast. I am interested in System & Network, Cloud Computing and Cyber Security and I am developing myself accordingly. I created this blog, hoping to share my work and wish it to be a resource.
 
-Çalışmalar hakkındaki soru ve önerileriniz için mail atmanız veya linkedin üzerinden iletişime geçmeniz yeterlidir. Geri bildirimlere ve çalışmayı geliştirici nitelikte yapılan eleştirilere her daim açığım :)
 
-**iletişime geçmek isterseniz ✨**
+For your questions and suggestions about the studies, it is sufficient to send an e-mail or contact via linkedin. I am always open to feedback and criticisms to improve the work. 😊
+
+**if you want to contact✨**
 
 - <rumeysazeynepp@outlook.com>
 - [Github](https://www.github.com/zeyneprumeysayorulmaz)
 - [Linkedin](https://www.linkedin.com/in/zeynep-rumeysa-yorulmaz)
+- [Medium](https://medium.com/@zeyneprumeysayorulmaz)
