@@ -41,7 +41,7 @@ Pending statüsünde olması gerekenden fazla kalan bir pod varsa bunun nedeni y
 Aşağıdaki gibi kubectl komutunu yürütürseniz podları listeler ve durumları hakkında bilgi edinebilirsiniz.
 
 ```
-$kubectl get pods
+$ kubectl get pods
 NAME                                           READY   STATUS    RESTARTS   AGE
 ```
 
