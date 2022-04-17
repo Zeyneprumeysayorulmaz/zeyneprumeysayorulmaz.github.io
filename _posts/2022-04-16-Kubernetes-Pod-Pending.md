@@ -79,6 +79,6 @@ Pod başlamadan önce kubelet, diğer Kubernetes öğeleriyle olan tüm bağıml
 
 Bir podun Pending statüsünde kalıyor olmasının nedenlerini anlamak, iş yüklerinizi Kubernetes üzerinde dağıtmak ve yönetmek noktasında önemlidir. Kubernetes'de dağıtımlarınızı yönetiyorsanız tüm süreçlerin sağlıklı ilerlediğinden emin olmanız ve sorunlarınıza hızlı aksiyon alabilmeniz önemlidir.
 
-Bir sonraki yazıda görüşmek üzere..
+Bir sonraki yazıda görüşmek üzere.. 🙂
 
 ![]({{ 'assets/img/one-does-not-simply-deploy-kubernetes.jpg' | relative_url }})
