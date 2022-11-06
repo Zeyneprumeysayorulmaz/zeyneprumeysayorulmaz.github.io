@@ -74,7 +74,7 @@ Fakat restart policy, always olarak ayarlandıysa ve containerlar hata kaynaklı
 
 
 ***Temel Kural***
-Container imajlarında, container oluşturulup çalıştırıldığı zaman balatılması belirlenen bir uygulama bulunur. Bu uygulama çalıştığı sürece container da çalışır durumdadır. Fakat uygulama çalışmayı bıraktığı zaman container da durdurulur. Uygulamanın çalışmayı bırakması da 3 şekilde olur.
+Container imajlarında, container oluşturulup çalıştırıldığı zaman başlatılması belirlenen bir uygulama bulunur. Bu uygulama çalıştığı sürece container da çalışır durumdadır. Fakat uygulama çalışmayı bıraktığı zaman containerda durdurulur. Uygulamanın çalışmayı bırakması da 3 şekilde olur.
 * Uygulama görevlerini tamamlayıp otomatik şekilde hata vermeden kapanır.
 * Kullanıcı ya da sistem uygulamayı kapanma sinyali gönderir ve hata vermeden kapanır.
 * Ya da bir şekilde hata verir ve hata kodu oluşturarak kapanır.
