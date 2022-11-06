@@ -39,7 +39,7 @@ Fakat pratikte biz objeleri direkt kubectl komutları ile oluşturmayız. Bu imp
 
 Kubernetesde obje tanımlarının yaml formatında yapılmasına izin verilir. Bizler objeleri yaml dosyaları şeklinde tanımlar ve k8s'e deklare ederiz. Her objenin tanımı farklıdır ama temelde benzer olan bir formatı takip eder.
 
-Örneğin pod objesinin tanımlandığı aşağıdaki gibi bir yaml dosyası varsa bunu kuebctl apply komutu ile kubernetes'e deklare edebiliriz.
+Örneğin pod objesinin tanımlandığı aşağıdaki gibi bir yaml dosyası varsa bunu **kubectl apply** komutu ile kubernetes'e deklare edebiliriz.
 
 ![]({{ 'assets/img/podyaml.PNG' | relative_url }})
 
@@ -47,7 +47,7 @@ Kubernetesde obje tanımlarının yaml formatında yapılmasına izin verilir. B
 
 ![]({{ 'assets/img/podapply.PNG' | relative_url }})
 
-Kendiniz bir pod objesi oluşturabilirsiniz. Burada **apiVersion**,  **kind**, **metadata** anahtarlarının her k8s obje tanımında bulunması gerekir. **kind**, objenin ne olduğunu söylediğimiz anahtardır, yani objenin tipini burada söyleriz. **apiVersion** ise oluşturmak istediğimiz obje tipinin k8s apisinde hangi endpoint üstünde tanımlandığını belirttiğimiz anahtardır. Her objenin sunulduğu bir api vardır, obje tipine göre burada anahtara gerekli olan api bilgisini girmek gerekiyor. K8s dokümantasyonlarından veya kubectl aracı ile buradaki obje tipinin sunulduğu api bilgisini öğrenebiliriz. Aşağıdaki gibi `kubectl explain <obje-adı>` komutu ile bunu öğrenebilmemiz mümkün. Ezbere gerke yok, açık kaynak istediğimizde erişebiliriz :) 
+Kendiniz bir pod objesi oluşturabilirsiniz. Burada **apiVersion**,  **kind**, **metadata** anahtarlarının her k8s obje tanımında bulunması gerekir. **kind**, objenin ne olduğunu söylediğimiz anahtardır, yani objenin tipini burada söyleriz. **apiVersion** ise oluşturmak istediğimiz obje tipinin k8s apisinde hangi endpoint üstünde tanımlandığını belirttiğimiz anahtardır. Her objenin sunulduğu bir api vardır, obje tipine göre burada anahtara gerekli olan api bilgisini girmek gerekiyor. K8s dokümantasyonlarından veya kubectl aracı ile buradaki obje tipinin sunulduğu api bilgisini öğrenebiliriz. Aşağıdaki gibi `kubectl explain <obje-adı>` komutu ile bunu öğrenebilmemiz mümkün. Ezbere gerek yok, açık kaynak istediğimizde erişebiliriz 😄
 
 ![]({{ 'assets/img/explainpods.PNG' | relative_url }})
 
@@ -68,9 +68,9 @@ Pod oluşturmak için ya imperative yöntemle kubectl aracını kullanarak bir p
 | Succeeded     |   Eğer containerların hepsi hata vermeden doğal olarak kapanırsa ve restart policy, never ya da on-failru olarak set edildiyse pod succeeded/completed statüsüne döner ve pod yaşam döngüsünü başarılı bir şekilde tamamlar.  | 
 | Failed     | Yine restart policy, never veya on-failru olarak işaretlendiyse  ve containerlardan biri hata verip kapanırsa   pod failed statüsüne geçer.  | 
 
-Fakat eğer restart policy, always olarak ayarlandıysa ve containerlar hata kaynaklı veya hata olmaksızın kapansa bile restart olur ve pod, hiç bir zaman completed veya failed state'e geçmez.  Bunun yerine podun içerisindeki container yeniden başlatılır ve running state'de devam eder. Fakat bu yeniden başlatma belirli aralıkta sık oluyorsa bir hata olduğuna kanaat getirir ve podu CrashLoopBackOff statüsüne koyar.
+Fakat restart policy, always olarak ayarlandıysa ve containerlar hata kaynaklı veya hata olmaksızın kapansa bile restart olur ve pod, hiç bir zaman completed veya failed state'e geçmez.  Bunun yerine podun içerisindeki container yeniden başlatılır ve running state'de devam eder. Fakat bu yeniden başlatma belirli aralıkta sık oluyorsa k8s bir hata olduğuna kanaat getirir ve podu CrashLoopBackOff statüsüne koyar.
 
-| CrashLoopBackOff     | Bir pod oluştu ama içerisindeki container veya containerlar belirli aralıklarla kapanıp duruyor demektir.      | 
+| CrashLoopBackOff     | Bir pod oluştu ama içerisindeki container veya containerlar belirli aralıklarla kapanıp duruyor demektir. Bir çok nedeni olabilir.     | 
 
 
 ***Temel Kural***
@@ -86,3 +86,6 @@ Yukarıdakiler aklımızın bir köşesinde kalsın :) konuyu bağlayalım. Podu
 **On-failru:** Sadece hata alıp kapanırsa yeniden başlatılır.
 
 **Never:** Hiç bir zaman yeniden başlatılmaz.
+
+
+Bir sonraki yazımda namepace, label ve selector objelerine değinmeyi planlıyorum. Şimdilik görüşmek üzere...👋🏻
