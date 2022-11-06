@@ -81,11 +81,11 @@ Container imajlarında, container oluşturulup çalıştırıldığı zaman bala
 
 Yukarıdakiler aklımızın bir köşesinde kalsın :) konuyu bağlayalım. Podun içerisinde çalışan containerlara podun içinde bir **restart policy** tanımlanır. Restart policy 3 değer alabilir.
 
-**Always:** Default değerdir. Aksi belirtilmedikçe bu ayarlanır. Podun içindeki container hata vereverek veya vermeyerek hangi durumda durdurulursa durdurulsun o containerı yeniden başlat demektir.
+**Always:** Default değerdir. Aksi belirtilmedikçe bu ayarlanır. Podun içindeki container hata vererek veya vermeyerek hangi durumda durdurulursa durdurulsun o containerı yeniden başlat demektir.
 
 **On-failru:** Sadece hata alıp kapanırsa yeniden başlatılır.
 
 **Never:** Hiç bir zaman yeniden başlatılmaz.
 
 
-Bir sonraki yazımda namepace, label ve selector objelerine değinmeyi planlıyorum. Şimdilik görüşmek üzere...👋🏻
+Bir sonraki yazımda namespace, label ve selector objelerine değinmeyi planlıyorum. Şimdilik görüşmek üzere...👋🏻
