@@ -1,5 +1,5 @@
 ---
-title: Kubernetes Notlarım VII- Resource Limits
+title: Kubernetes Notlarım VII- Resource Limits | Environment Variables
 ---
 
 > Merhabalar Kubernetes yazı serisine hız kesmeden devam ediyorum. Bu yazımda resource limits ve environment variable konularına değineceğim. Keyifli okumalar..
