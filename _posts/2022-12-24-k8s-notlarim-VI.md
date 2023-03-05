@@ -1,5 +1,5 @@
 ---
-title: Kubernetes Notlarım VI- Liveness ve Readiness probes
+title: Kubernetes Notlarım VI- Liveness ve Readiness Probes
 ---
 
 > Merhabalar Kubernetes yazı serisine devam ediyorum. Bu yazımda Liveness ve Readiness probes konularını ele alacağım. Keyifli okumalar..
