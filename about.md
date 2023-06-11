@@ -1,5 +1,5 @@
 ---
-title: Hakkımda
+title: About
 permalink: "/about/"
 layout: page
 excerpt: Hello peeps, I'm student of computer science from Banyuwangi, living in Jogjakarta.
