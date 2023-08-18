@@ -8,6 +8,6 @@ excerpt: Thanks to amazing people that i met, who help me out from follishness, 
 comments: false
 ---
 
-“Share your knowledge, that is the way to achieve immortality.”
+“May the force be with you. 🌟🌠🛸 ”
 
 <hr>
